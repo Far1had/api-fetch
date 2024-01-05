@@ -50,10 +50,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+h1:hover {
+    background-color: burlywood;
+    color: brown;
+    border: 21px outset brown;
+    
 
 
 }
-
 a {
     text-decoration: none;
     color: black;
