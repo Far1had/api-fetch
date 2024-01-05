@@ -31,7 +31,7 @@ fetch("./assets/data/main2.json")
             imageElement.alt = product.author;
 
             imageElement.style.width = "300px";
-            imageElement.style.height = "300px";
+            imageElement.style.height = "200px";
 
             const figcaptionElement = document.createElement("figcaption");
             figcaptionElement.textContent = product.author;
@@ -45,7 +45,7 @@ fetch("./assets/data/main2.json")
             });
 
             // Füge eine pinkfarbene Hintergrundfarbe für den Button hinzu
-            buttonElement.style.backgroundColor = "rgb(243, 9, 212)";
+            buttonElement.style.backgroundColor = "";
 
             figureElement.appendChild(imageElement);
             figureElement.appendChild(figcaptionElement);

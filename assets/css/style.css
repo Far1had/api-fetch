@@ -28,17 +28,20 @@ button {
     cursor: pointer;
     border: none;
     outline: none;
-    color: white;
+    color: black;
+    font-family: inter-bold;
     width: 150px;
     height: 60px;
     border-radius: 18px;
-    border: 6px outset pink;
+    border: 9px outset burlywood;
 }
 
 h1{
+    background-color: brown;
+    color: burlywood;
     font-family: inter-bold;
-    font-size: 2em;
-    border: 21px outset gold;
+    font-size: 1.5em;
+    border: 21px outset burlywood;
     border-radius: 18px;
     height: 110px;
     width: 350px;
@@ -68,7 +71,17 @@ div {
     
   }
   img{
+    margin-bottom: 5%;
     border-radius: 18px;
-    /* border: 9px inset red; */
+    border: 19px inset brown;
   }
   
+  figcaption{
+    margin-bottom: 5%;
+    font-family: inter-bold;
+  }
+  button:hover {
+   border-radius: 50px;
+    border: 18px outset brown;
+    background-color: burlywood;
+}
