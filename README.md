@@ -97,7 +97,7 @@ h1 {
 h1:hover {
     background-color: burlywood;
     color: brown;
-    border: 21px outset brown;
+    border: 21px inset brown;
     
 
 
@@ -135,13 +135,13 @@ figcaption {
 
 button:hover {
     border-radius: 50px;
-    border: 13px outset brown;
+    border: 13px inset brown;
     background-color: burlywood;
     color: brown;
 }
 
 img:hover{
-    border: 19px inset burlywood;
+    border: 19px outset burlywood;
     cursor: pointer;
   }
 #  Designet von Farhad Amini
