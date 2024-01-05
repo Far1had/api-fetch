@@ -41,7 +41,7 @@ fetch("./assets/data/main2.json")
 
             // Füge einen Event-Listener für den Button hinzu
             buttonElement.addEventListener("click", () => {
-                window.location.href = product.download_url;
+                window.location.href = product.url;
             });
 
             // Füge eine pinkfarbene Hintergrundfarbe für den Button hinzu

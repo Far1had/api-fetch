@@ -22,24 +22,25 @@ body {
     align-items: center;
     margin: 0;
     font-family: 'inter';
-    background-color: rgb(171, 223, 225);
+    background-color: white;
 }
 button {
     cursor: pointer;
     border: none;
     outline: none;
     color: white;
-    width: 100px;
-    height: 35px;
+    width: 150px;
+    height: 60px;
     border-radius: 18px;
+    border: 6px outset pink;
 }
 
 h1{
     font-family: inter-bold;
     font-size: 2em;
-    border: 6px outset rgb(216, 216, 216);
+    border: 21px outset gold;
     border-radius: 18px;
-    height: 70px;
+    height: 110px;
     width: 350px;
     display: flex;
     justify-content: center;
@@ -52,12 +53,12 @@ a {
     color: black;
 }
 div {
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(251, 251, 251);
     padding: 20px;
     border-radius: 18px;
     display: flex;
     justify-content: center;
-    border: 6px outset rgb(216, 216, 216);
+    border: 15px outset pink;
   }
   
   figure {
@@ -68,6 +69,6 @@ div {
   }
   img{
     border-radius: 18px;
-    border: 3px inset rgb(216, 216, 216);
+    /* border: 9px inset red; */
   }
   
