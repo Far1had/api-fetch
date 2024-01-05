@@ -14,7 +14,7 @@ Dies ist die Readme-Datei für das Projekt-Picsum, ein Übungsprojekt von [Super
     <title>Projekt-Picsum</title>
 </head>
 <body>
-    <h1>Bilder Galerie</h1>
+    <h1>BILDER GALLERY</h1>
     <figure id="products"></figure>
 
     <script src="./assets/js/../js/main.js"></script>
