@@ -64,7 +64,7 @@ body {
     align-items: center;
     margin: 0;
     font-family: 'inter';
-    background-color: white;
+    background-color: skyblue;
 }
 
 button {
@@ -76,7 +76,9 @@ button {
     width: 150px;
     height: 60px;
     border-radius: 666px;
-    border: 9px outset burlywood;
+    border: 11px outset burlywood;
+    background-color: brown;
+    color: burlywood;
 }
 
 h1 {
