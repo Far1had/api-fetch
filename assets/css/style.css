@@ -58,7 +58,7 @@ div {
     border-radius: 18px;
     display: flex;
     justify-content: center;
-    border: 15px outset pink;
+    /* border: 15px outset pink; */
   }
   
   figure {
