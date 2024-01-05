@@ -30,6 +30,7 @@ fetch("./assets/data/main2.json")
             imageElement.src = product.download_url;
             imageElement.alt = product.author;
 
+
             imageElement.style.width = "300px";
             imageElement.style.height = "200px";
 
@@ -39,9 +40,14 @@ fetch("./assets/data/main2.json")
             const buttonElement = document.createElement("button");
             buttonElement.textContent = "See More";
 
+            imageElement.addEventListener("click", () => {
+                window.location.href = product.download_url;
+                
+            })
             // Füge einen Event-Listener für den Button hinzu
             buttonElement.addEventListener("click", () => {
                 window.location.href = product.url;
+                
             });
 
             // Füge eine pinkfarbene Hintergrundfarbe für den Button hinzu
