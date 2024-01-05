@@ -91,10 +91,15 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+h1:hover {
+    background-color: burlywood;
+    color: brown;
+    border: 21px outset brown;
+    
 
 
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -136,8 +141,7 @@ button:hover {
 img:hover{
     border: 19px inset burlywood;
     cursor: pointer;
-  
-}
+  }
 #  Designet von Farhad Amini
 
 Übungsprojekt von SuperCode.de
