@@ -43,22 +43,21 @@ fetch("./assets/data/main2.json")
     font-family: 'inter';
     src: url(../fonts/Inter/static/Inter-Regular.ttf);
 }
-
 @font-face {
     font-family: 'inter-bold';
     src: url(../fonts/Inter/static/Inter-Bold.ttf);
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 18px;   
     margin-top: 2%;
 }
 
 body {
-    display: flex;
+        display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -66,7 +65,6 @@ body {
     font-family: 'inter';
     background-color: white;
 }
-
 button {
     cursor: pointer;
     border: none;
@@ -75,11 +73,11 @@ button {
     font-family: inter-bold;
     width: 150px;
     height: 60px;
-    border-radius: 18px;
+    border-radius: 666px;
     border: 9px outset burlywood;
 }
 
-h1 {
+h1{
     background-color: brown;
     color: burlywood;
     font-family: inter-bold;
@@ -91,42 +89,42 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
+    
+}
 a {
     text-decoration: none;
     color: black;
 }
-
 div {
-    background-color: rgb(251, 251, 251);
-    padding: 20px;
-    border-radius: 18px;
+     padding: 10px;
+    /* border-radius: 18px; */
     display: flex;
     justify-content: center;
-}
-
-figure {
+    /* border: 15px outset pink; */
+  }
+  
+  figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-img {
+    
+  }
+  img{
     margin-bottom: 5%;
-    border-radius: 18px;
+    border-radius: 666px;
     border: 19px inset brown;
-}
-
-figcaption {
+  }
+  
+  figcaption{
     margin-bottom: 5%;
     font-family: inter-bold;
-}
-
-button:hover {
-    border-radius: 50px;
-    border: 18px outset brown;
+  }
+  button:hover {
+   border-radius: 50px;
+    border: 13px outset brown;
     background-color: burlywood;
+    color: brown;
 }
 #  Designet von Farhad Amini
 
